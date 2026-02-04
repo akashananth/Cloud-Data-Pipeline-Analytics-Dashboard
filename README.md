@@ -17,6 +17,16 @@ Jupyter ETL ---> PostgreSQL (Docker) <--- FastAPI API (Docker)
 - Create interactive Power BI dashboard for business users
 - Detect abnormal/suspicious activities in sales
 
+This project demonstrates how organizations monitor performance using KPI dashboards.
+The same pipeline structure can be applied to digital marketing and campaign analytics,
+where KPIs such as revenue, growth, top performers, and anomaly detection help stakeholders
+optimize performance and identify risks.
+
+The dashboard is designed to support:
+- Performance monitoring using KPIs and trends  
+- Ranking top performers (similar to top channels or campaigns)  
+- Detecting abnormal patterns or unusual activity  
+- Management-ready reporting for decision-makers
 
 ## Tech Stack
 
@@ -102,6 +112,14 @@ Dashboard Highlights
 ✔ Suspicious transaction distribution
 ✔ KPI metrics for executives
 ✔ Interactive slicers for drill-down analysis
+
+ Key Insights
+
+- A small number of top performers contribute a large share of total revenue, highlighting where performance is concentrated.
+- The anomaly view helps identify unusual transaction patterns that may require further investigation.
+- KPI trends provide a quick overview of performance health and changes over time.
+- Interactive filters allow drill-down analysis for deeper performance evaluation.
+
 
 Real-World Skills Demonstrated
 
