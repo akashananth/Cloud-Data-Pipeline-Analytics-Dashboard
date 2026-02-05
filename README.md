@@ -11,7 +11,7 @@ Jupyter ETL ---> PostgreSQL (Docker) <--- FastAPI API (Docker)
 
 ## 📊 Power BI Performance Analytics Dashboard
 
-![Performance Analytics Dashboard](<img width="1297" height="734" alt="Performance_Analytics_Dashboard" src="https://github.com/user-attachments/assets/bdeba9f4-f32d-4923-b048-09ff9e92abd1" />)
+![Performance Analytics Dashboard](powerbi_dashboard/Performance_Analytics_Dashboard.png)
 
 **Dashboard Features:**
 - KPI Monitoring: Total Revenue, Total Transactions, Average Transaction Value, Anomaly Rate  
