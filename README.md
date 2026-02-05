@@ -1,26 +1,34 @@
 # Cloud-Data-Pipeline-Analytics-Dashboard
+**Performance Analytics & KPI Monitoring Dashboard (Power BI)**
 
-An end-to-end cloud-style **data engineering and analytics pipeline** built using Docker, FastAPI, PostgreSQL, Python ETL, and Power BI.
-This project analyzes retail sales and **detects suspicious transactions** using a scalable microservices architecture — suitable for real-world production environments.
+An end-to-end cloud-style **data engineering and performance analytics pipeline** built using Docker, FastAPI, PostgreSQL, Python ETL, and Power BI.  
+This project analyzes transactional sales data to produce **KPI-driven performance insights, trend analysis, top-performer ranking, and anomaly/risk indicators** — similar to real-world performance marketing and business analytics workflows.
 
 ## Project Architecture
 Jupyter ETL ---> PostgreSQL (Docker) <--- FastAPI API (Docker)
 ▲ │
 └──── Power BI Dashboard ───┘
 
+## 📊 Power BI Performance Analytics Dashboard
+
+![Performance Analytics Dashboard](<img width="1297" height="734" alt="Performance_Analytics_Dashboard" src="https://github.com/user-attachments/assets/bdeba9f4-f32d-4923-b048-09ff9e92abd1" />)
+
+**Dashboard Features:**
+- KPI Monitoring: Total Revenue, Total Transactions, Average Transaction Value, Anomaly Rate  
+- Top Performers (Revenue Contribution)  
+- Performance Trend (Over Time)  
+- Anomaly / Risk Indicator Overview  
+- Interactive slicers for drill-down analysis
 
 ## Objectives
-
-- Ingest raw sales transaction data
-- Build analytics tables for KPIs
-- Expose insights via REST API
-- Create interactive Power BI dashboard for business users
-- Detect abnormal/suspicious activities in sales
+- Ingest raw transactional data and build analytics-ready tables  
+- Design KPI models for performance monitoring (revenue, volume, AOV, anomaly rate)  
+- Expose performance insights via REST APIs  
+- Create an interactive Power BI dashboard for business and marketing stakeholders  
+- Detect abnormal/suspicious activity as a quality and risk signal   
 
 This project demonstrates how organizations monitor performance using KPI dashboards.
-The same pipeline structure can be applied to digital marketing and campaign analytics,
-where KPIs such as revenue, growth, top performers, and anomaly detection help stakeholders
-optimize performance and identify risks.
+The same pipeline structure can be applied to digital marketing and campaign analytics, where KPIs such as revenue, growth, top performers, and anomaly detection help stakeholders optimize performance and identify risks.
 
 The dashboard is designed to support:
 - Performance monitoring using KPIs and trends  
@@ -78,10 +86,10 @@ Cloud_Data_Pipeline_Analytics_Dashboard/
 │ └─ init.sql
 │
 ├─ data/
-│ └─ sales_raw.csv (not included due to size)
+│ └─ sales_raw.csv
 │
 ├─ powerbi_dashboard/
-│ └─ Sales_Analytics_Dashboard.png
+│ └─ Performance_Analytics_Dashboard.png
 │
 ├─ docker-compose.yml
 └─ README.md
@@ -108,25 +116,30 @@ Power BI Connection
 
 Dashboard Highlights
 
-✔ Top salespeople by revenue
-✔ Suspicious transaction distribution
-✔ KPI metrics for executives
-✔ Interactive slicers for drill-down analysis
+✔ KPI monitoring (Revenue, Transactions, AOV, Anomaly Rate)  
+✔ Top Performers (Revenue Contribution)  
+✔ Performance Trend (Over Time)  
+✔ Anomaly / Risk Indicator Overview  
+✔ Interactive slicers for drill-down analysis  
 
  Key Insights
 
-- A small number of top performers contribute a large share of total revenue, highlighting where performance is concentrated.
-- The anomaly view helps identify unusual transaction patterns that may require further investigation.
-- KPI trends provide a quick overview of performance health and changes over time.
-- Interactive filters allow drill-down analysis for deeper performance evaluation.
+ A small number of top performers contribute a large share of total revenue, highlighting where performance impact is concentrated.
+ The anomaly view helps identify unusual transaction patterns that may require further investigation as part of quality and risk monitoring.
+ KPI trends provide a quick overview of overall performance health and changes over time.
+ Interactive filters enable drill-down analysis for deeper performance evaluation across entities and segments.
 
+ Real-World Skills Demonstrated
 
-Real-World Skills Demonstrated
+ ✔ Data ingestion and transformation (ETL)
+ ✔ SQL-based data modeling for analytics
+ ✔ REST API development for data access
+ ✔ Containerization and local orchestration with Docker
+ ✔ BI reporting and stakeholder-focused insights (Power BI)
+ ✔ Version control and project delivery via GitHub
 
-✔ Data ingestion and transformation
-✔ SQL data modeling
-✔ REST API development
-✔ Containerization with Docker
-✔ BI reporting & stakeholder insights
-✔ GitHub portfolio project delivery
+## Relevance to Performance Analytics & Marketing
+
+This project mirrors how performance marketing and communication teams monitor and optimize campaigns using KPI dashboards.  
+The same analytics patterns (revenue, volume, trend analysis, top-performer ranking, and quality signals) are used to evaluate campaign performance, customer journey effectiveness, and marketing ROI in real-world consulting and agency environments.
 
